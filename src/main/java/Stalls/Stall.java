@@ -1,4 +1,11 @@
 package Stalls;
 
-public class Stall {
+public abstract class Stall {
+
+    String stalls;
+
+    public String getStalls(){
+        return stalls;
+    }
+
 }
