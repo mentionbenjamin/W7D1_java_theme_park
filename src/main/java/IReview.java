@@ -1,5 +1,6 @@
 public interface IReview {
 
-    void review()
+    public int getReviewRating();
+    public String getReviewerName();
 
 }
