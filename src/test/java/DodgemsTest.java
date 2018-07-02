@@ -1,5 +1,8 @@
 import Attractions.Dodgems;
 import org.junit.Before;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class DodgemsTest {
 
@@ -8,6 +11,11 @@ public class DodgemsTest {
     @Before
     public void setUp(){
         dodgems = new Dodgems("adrenaline");
+    }
+
+    @Test
+    public void hasType(){
+        assertEquals("adrenaline", dodgems.getType());
     }
 
 }
