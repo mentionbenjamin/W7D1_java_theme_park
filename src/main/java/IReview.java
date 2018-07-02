@@ -1,2 +1,2 @@
-public class IReview {
+public interface IReview {
 }
