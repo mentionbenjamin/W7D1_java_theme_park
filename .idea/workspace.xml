@@ -495,7 +495,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IceCreamStallTest">
+  <component name="RunManager" selected="JUnit.TobaccoStallTest.hasType">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -567,12 +567,12 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="RollercoasterTest.hasType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TobaccoStallTest.hasType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Theme_Park_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RollercoasterTest" />
+      <option name="MAIN_CLASS_NAME" value="TobaccoStallTest" />
       <option name="METHOD_NAME" value="hasType" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -623,19 +623,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.RollercoasterTest.hasType" />
       <item itemvalue="JUnit.All in Theme_Park_test" />
       <item itemvalue="JUnit.PlaygroundTest.hasType" />
       <item itemvalue="JUnit.CandyFlossStallTest.hasType" />
       <item itemvalue="JUnit.IceCreamStallTest" />
+      <item itemvalue="JUnit.TobaccoStallTest.hasType" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TobaccoStallTest.hasType" />
         <item itemvalue="JUnit.IceCreamStallTest" />
         <item itemvalue="JUnit.CandyFlossStallTest.hasType" />
         <item itemvalue="JUnit.All in Theme_Park_test" />
         <item itemvalue="JUnit.PlaygroundTest.hasType" />
-        <item itemvalue="JUnit.RollercoasterTest.hasType" />
       </list>
     </recent_temporary>
   </component>
