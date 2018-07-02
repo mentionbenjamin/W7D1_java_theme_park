@@ -494,9 +494,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RollercoasterTest.hasType">
+  <component name="RunManager" selected="JUnit.PlaygroundTest.hasType">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="All in Theme_Park_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Theme_Park_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="DodgemsTest.hasType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Theme_Park_test" />
@@ -532,12 +549,12 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="RollercoasterTest.hasType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlaygroundTest.hasType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Theme_Park_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RollercoasterTest" />
+      <option name="MAIN_CLASS_NAME" value="PlaygroundTest" />
       <option name="METHOD_NAME" value="hasType" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -549,13 +566,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="VisitorTest.hasAge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RollercoasterTest.hasType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Theme_Park_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VisitorTest" />
-      <option name="METHOD_NAME" value="hasAge" />
+      <option name="MAIN_CLASS_NAME" value="RollercoasterTest" />
+      <option name="METHOD_NAME" value="hasType" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -605,17 +622,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.VisitorTest.hasAge" />
       <item itemvalue="JUnit.DodgemsTest.hasType" />
       <item itemvalue="JUnit.ParkTest.hasType" />
       <item itemvalue="JUnit.RollercoasterTest.hasType" />
+      <item itemvalue="JUnit.All in Theme_Park_test" />
+      <item itemvalue="JUnit.PlaygroundTest.hasType" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PlaygroundTest.hasType" />
+        <item itemvalue="JUnit.All in Theme_Park_test" />
         <item itemvalue="JUnit.RollercoasterTest.hasType" />
         <item itemvalue="JUnit.ParkTest.hasType" />
         <item itemvalue="JUnit.DodgemsTest.hasType" />
-        <item itemvalue="JUnit.VisitorTest.hasAge" />
       </list>
     </recent_temporary>
   </component>
