@@ -1,4 +1,11 @@
 package Attractions;
 
-public class Attraction {
+public abstract class Attraction {
+
+    String attractions;
+
+    public String getAttractions(){
+        return attractions;
+    }
+
 }
