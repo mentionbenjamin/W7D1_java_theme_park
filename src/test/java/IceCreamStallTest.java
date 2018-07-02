@@ -10,12 +10,12 @@ public class IceCreamStallTest {
 
     @Before
     public void setUp(){
-        iceCreamStall = new IceCreamStall("brainfreeze calories");
+        iceCreamStall = new IceCreamStall("Death Certificate", "Ice Cube", 1);
     }
 
     @Test
-    public void hasType(){
-        assertEquals("brainfreeze calories", iceCreamStall.getType());
+    public void hasOwnerName() {
+        assertEquals("Ice Cube", iceCreamStall.getOwnerName());
     }
 
 }

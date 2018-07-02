@@ -2,13 +2,13 @@ package Stalls;
 
 public class IceCreamStall extends Stall{
 
-    String type;
-
-    public IceCreamStall(String type){
-        this.type = type;
+    public IceCreamStall(String name, String ownerName, int parkingSpot){
+        super(name, ownerName, 1);
     }
 
-    public String getType() {
-        return type;
+    public String getOwnerName(){
+        return ownerName;
     }
+
+
 }
