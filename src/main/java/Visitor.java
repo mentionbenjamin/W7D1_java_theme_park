@@ -10,4 +10,7 @@ public class Visitor {
         this.wallet = wallet;
     }
 
+    public int getAge() {
+        return this.age;
+    }
 }
