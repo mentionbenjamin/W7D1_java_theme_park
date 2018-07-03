@@ -11,11 +11,15 @@ public class PlaygroundTest {
 
     Playground playground;
     Visitor visitor1;
+    Visitor visitor2;
+
 
     @Before
     public void setUp(){
         playground = new Playground("active fun");
         visitor1 = new Visitor(12, 115, 10);
+        visitor2 = new Visitor(32, 180, 50);
+
     }
 
     @Test
@@ -24,9 +28,16 @@ public class PlaygroundTest {
     }
 
     @Test
-    public void visitorUnder15(){
+    public void visitorIsUnderAge15(){
         assertEquals(true, playground.allowEntry(visitor1));
     }
+
+    @Test
+    public void visitorIsNotUnderAge15(){
+        assertEquals(false, playground.allowEntry(visitor2));
+    }
+
+
 
 
 }

@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d962d878-c9f8-4156-9d24-e4eacf8252e0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Interfaces/IReview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Interfaces/ITicket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Attractions/Playground.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Attractions/Playground.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IReview.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ISecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interfaces/ISecurity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ITicket.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ThemePark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ThemePark/ThemePark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ThemePark/Visitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PlaygroundTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlaygroundTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/VisitorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/VisitorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -50,16 +40,16 @@
       <file leaf-file-name="PlaygroundTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PlaygroundTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="448">
+              <caret line="38" column="4" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#220#221#0" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
                 <element signature="e#315#316#0" expanded="true" />
                 <element signature="e#379#380#0" expanded="true" />
                 <element signature="e#505#506#0" expanded="true" />
                 <element signature="e#579#580#0" expanded="true" />
+                <element signature="e#664#665#0" expanded="true" />
+                <element signature="e#731#732#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -396,14 +386,15 @@
         <option value="$PROJECT_DIR$/src/main/java/Interfaces/ISecurity.java" />
         <option value="$PROJECT_DIR$/src/test/java/VisitorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ThemePark/Visitor.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PlaygroundTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Attractions/Playground.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PlaygroundTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="720" />
     <option name="y" value="23" />
-    <option name="width" value="808" />
+    <option name="width" value="720" />
     <option name="height" value="842" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -489,17 +480,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PlaygroundTest.visitorUnder15">
+  <component name="RunManager" selected="JUnit.PlaygroundTest.visitorIsNotUnderAge15">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="CandyFlossStallTest.hasOwnerName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlaygroundTest.hasType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Theme_Park_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CandyFlossStallTest" />
-      <option name="METHOD_NAME" value="hasOwnerName" />
+      <option name="MAIN_CLASS_NAME" value="PlaygroundTest" />
+      <option name="METHOD_NAME" value="hasType" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -510,13 +501,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="IceCreamStallTest.hasOwnerName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlaygroundTest.visitorIsNotUnderAge15" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Theme_Park_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="IceCreamStallTest" />
-      <option name="METHOD_NAME" value="hasOwnerName" />
+      <option name="MAIN_CLASS_NAME" value="PlaygroundTest" />
+      <option name="METHOD_NAME" value="visitorIsNotUnderAge15" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -527,13 +518,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="IceCreamStallTest.stallHasOwnerName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlaygroundTest.visitorIsUnderAge15" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Theme_Park_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="IceCreamStallTest" />
-      <option name="METHOD_NAME" value="stallHasOwnerName" />
+      <option name="MAIN_CLASS_NAME" value="PlaygroundTest" />
+      <option name="METHOD_NAME" value="visitorIsUnderAge15" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -617,19 +608,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.IceCreamStallTest.stallHasOwnerName" />
-      <item itemvalue="JUnit.IceCreamStallTest.hasOwnerName" />
-      <item itemvalue="JUnit.CandyFlossStallTest.hasOwnerName" />
       <item itemvalue="JUnit.TobaccoStallTest.hasOwnerName" />
       <item itemvalue="JUnit.PlaygroundTest.visitorUnder15" />
+      <item itemvalue="JUnit.PlaygroundTest.hasType" />
+      <item itemvalue="JUnit.PlaygroundTest.visitorIsUnderAge15" />
+      <item itemvalue="JUnit.PlaygroundTest.visitorIsNotUnderAge15" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PlaygroundTest.visitorIsNotUnderAge15" />
+        <item itemvalue="JUnit.PlaygroundTest.visitorIsUnderAge15" />
+        <item itemvalue="JUnit.PlaygroundTest.hasType" />
         <item itemvalue="JUnit.PlaygroundTest.visitorUnder15" />
         <item itemvalue="JUnit.TobaccoStallTest.hasOwnerName" />
-        <item itemvalue="JUnit.CandyFlossStallTest.hasOwnerName" />
-        <item itemvalue="JUnit.IceCreamStallTest.hasOwnerName" />
-        <item itemvalue="JUnit.IceCreamStallTest.stallHasOwnerName" />
       </list>
     </recent_temporary>
   </component>
@@ -647,9 +638,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_Theme_Park_test - 2018.07.02 at 17h 11m 38s.xml">
-      <configuration name="All in Theme_Park_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CandyFlossStallTest_hasType - 2018.07.02 at 17h 14m 57s.xml">
       <configuration name="CandyFlossStallTest.hasType" configurationId="JUnit" />
     </history-entry>
@@ -677,14 +665,17 @@
     <history-entry file="PlaygroundTest_visitorUnder15 - 2018.07.03 at 06h 46m 23s.xml">
       <configuration name="PlaygroundTest.visitorUnder15" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PlaygroundTest_visitorUnder15 - 2018.07.03 at 06h 55m 10s.xml">
+      <configuration name="PlaygroundTest.visitorUnder15" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="892" height="842" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="842" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32885906" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -692,10 +683,10 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.36107382" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.110067114" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.110067114" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22235294" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13519314" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
@@ -747,7 +738,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -977,16 +968,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PlaygroundTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="448">
+          <caret line="38" column="4" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
             <element signature="e#315#316#0" expanded="true" />
             <element signature="e#379#380#0" expanded="true" />
             <element signature="e#505#506#0" expanded="true" />
             <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
           </folding>
         </state>
       </provider>
