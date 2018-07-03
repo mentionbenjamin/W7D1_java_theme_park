@@ -18,4 +18,9 @@ public class VisitorTest {
         assertEquals(24, visitor.getAge());
     }
 
+    @Test
+    public void hasHeight(){
+        assertEquals(178, visitor.getHeight());
+    }
+
 }

@@ -21,6 +21,6 @@ public class TobaccoStall extends Stall implements ISecurity {
         else {
             return false;
         }
-    };
+    }
 
 }
