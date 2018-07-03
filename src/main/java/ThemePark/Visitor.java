@@ -1,8 +1,10 @@
+package ThemePark;
+
 public class Visitor {
 
-    private int age;
-    private int height;
-    private int wallet;
+    public int age;
+    public int height;
+    public int wallet;
 
     public Visitor(int age, int height, int wallet){
         this.age = age;
