@@ -549,17 +549,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RollercoasterTest.isTallEnough">
+  <component name="RunManager" selected="JUnit.RollercoasterTest.isNotTallEnough">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="PlaygroundTest.visitorIsNotUnderAge15" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RollercoasterTest.isNotTallEnough" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Theme_Park_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PlaygroundTest" />
-      <option name="METHOD_NAME" value="visitorIsNotUnderAge15" />
+      <option name="MAIN_CLASS_NAME" value="RollercoasterTest" />
+      <option name="METHOD_NAME" value="isNotTallEnough" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -677,19 +677,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.PlaygroundTest.visitorIsNotUnderAge15" />
       <item itemvalue="JUnit.TobaccoStallTest.visitorIsOverAge18" />
       <item itemvalue="JUnit.TobaccoStallTest.visitorIsUnderAge18" />
       <item itemvalue="JUnit.VisitorTest.hasHeight" />
       <item itemvalue="JUnit.RollercoasterTest.isTallEnough" />
+      <item itemvalue="JUnit.RollercoasterTest.isNotTallEnough" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RollercoasterTest.isNotTallEnough" />
         <item itemvalue="JUnit.RollercoasterTest.isTallEnough" />
         <item itemvalue="JUnit.VisitorTest.hasHeight" />
         <item itemvalue="JUnit.TobaccoStallTest.visitorIsUnderAge18" />
         <item itemvalue="JUnit.TobaccoStallTest.visitorIsOverAge18" />
-        <item itemvalue="JUnit.PlaygroundTest.visitorIsNotUnderAge15" />
       </list>
     </recent_temporary>
   </component>

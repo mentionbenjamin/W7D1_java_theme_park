@@ -27,4 +27,10 @@ public class RollercoasterTest {
     public void isTallEnough(){
         assertEquals(true, rollercoaster.allowEntry(visitor2));
     }
+
+    @Test
+    public void isNotTallEnough(){
+        assertEquals(false, rollercoaster.allowEntry(visitor1));
+    }
 }
+
