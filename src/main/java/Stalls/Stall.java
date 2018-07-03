@@ -1,5 +1,7 @@
 package Stalls;
 
+import ThemePark.Visitor;
+
 public abstract class Stall {
 
     public String name;
@@ -23,4 +25,5 @@ public abstract class Stall {
     public int parkingSpot(){
         return this.parkingSpot;
     }
+
 }
